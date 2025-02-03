@@ -9,6 +9,16 @@ p {
     /* internal spacing */
     padding: 16px;
     color: green;
+
+    /* position: relative;
+    top: 100px;
+    left: 50px; */
+    /* position: absolute;
+    top: 100px; */
+     /* position: fixed;
+     bottom: 100px; */
+     position: sticky;
+     top: 0px;
 }
 
 /* Styling the question class */
