@@ -3,23 +3,29 @@
 <head>
     <!--We add useful information here about our code--> 
     <title>HTML and CSS Basics</title>
-    <style>
+    <!--Title, css and js links-->
+    <link rel="stylesheet" href="./style.css">
+    <!-- <style>
         h2 {
             color: blue;
             background-color: yellow;
-        }   
-    </style>
-    <link rel="stylesheet" href="./style.css">
+        }
+        p {
+            color: green;
+        } 
+    </style> -->
+    
 </head>
     <body>
         <!-- inline styling-->
-        <h1 style="color: red, background-color blue"> NOTES HTML and CSS Basics</h1>
-        <h2>Question 1 <h2>
+        <h1 style="color: red; background-color: blue">NOTES HTML and CSS Basics</h1>
+
+        <h2 class="question">Question 1 </h2>
         <p>My first paragraph.</p>
         
-        <h2>Questions 2</h2>
-        <p>My second paragraph.</p>
-        <p>-> Here are some animals</p>
+        <h2 class="question">Questions 2</h2>
+        <p class="answer">List of animals</p>
+        <p>Here are some animals</p>
         <ul>
             <li>Elephant</li>
             <li>Lion</li>
@@ -28,7 +34,7 @@
                 <img src="./cat.jpg" alt="cat" width="100" height="100">
             </li>
         </ul>
-        <h2>Question 3</h2>
+        <h2 class="question">Question 3</h2>
         <p>Create a link to wherever you want</p>
         <a href="https://coderacademy.edu.au/" target="_blank">Coder Academy</a>
 
