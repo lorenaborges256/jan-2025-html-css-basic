@@ -1,8 +1,64 @@
+body{
+    margin:0
+}
 header  {
-    background-color: #333;
-    color: white;
     text-align: center;
-    padding: 5px;
+}
+
+main {
+    margin: auto;
+    margin-top: 28px;
+    text-align: center;
+    box-shadow: 11px 11px 34px 2px rgba(0,0,0,0.75);
+    width: 50%;
+    padding: 16px;
+    border-radius: 15px;
+}
+.form-element {
+    margin-bottom: 20px;
+}
+
+}
+.form-input {
+    width: 200px;
+    height: 30px;
+    border-radius: 4px;
+}
+.form-input:focus {
+    border-color: red;
+}
+#submit-btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    font-weight: bold;
+    background-color:brown;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#submit-btn:hover {
+    width: 200px;
+    height: 60px;
+    background-color: red;
+}
+label {
+    font-weight: bold;
+}
+
+#chat {
+    position: fixed;
+    bottom: 75px;
+    right: 50px;
+    z-index: 1;
+}
+#chat-btn {
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
 footer {
@@ -11,5 +67,4 @@ footer {
     height: 100px;
     background-color: aqua;
     width: 100%;
-    text-align: center;
 }
